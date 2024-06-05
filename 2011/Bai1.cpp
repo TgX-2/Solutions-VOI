@@ -105,6 +105,7 @@ int get(int x, int y, int k) {
 }
 
 void process() {
+    inp();
     int ans=-1;
     FOR(i,k,n) {
         FOR(j,k,n) {
